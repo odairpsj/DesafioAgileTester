@@ -1,0 +1,47 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Cadastro Funcionario com Sucesso",
+        "description": "",
+        "id": "cadastro-web;cadastro-funcionario-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10979117800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que eu acesse a pagina de funcionarios",
+            "match": {
+              "location": "CadastroWeb.acessarPaginaFuncionario()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6118600,
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.click()\" because the return value of \"desafioAgileTester.LoginAcessoPO.getButtonCadastrase()\" is null\r\n\tat desafioAgileTester.LoginAcessoPA.clickButtonCadastrase(LoginAcessoPA.java:11)\r\n\tat stepDefinition.CadastroWeb.cadastrarFuncionario(CadastroWeb.java:31)\r\n\tat ✽.And efetuar o cadastro do funcionario(CadastroWeb.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "efetuar o cadastro do funcionario",
+            "match": {
+              "location": "CadastroWeb.cadastrarFuncionario()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro Web",
+    "description": "Essa features tem a funcao de fazer o cadastro do funcionario",
+    "id": "cadastro-web",
+    "keyword": "Feature",
+    "uri": "CadastroWeb.feature"
+  }
+]

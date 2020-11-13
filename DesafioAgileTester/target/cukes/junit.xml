@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.985236">
+    <testcase classname="Cadastro Web" name="Cadastro Funcionario com Sucesso" time="10.985236">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because the return value of &quot;desafioAgileTester.LoginAcessoPO.getButtonCadastrase()&quot; is null&#13;&#10;&#9;at desafioAgileTester.LoginAcessoPA.clickButtonCadastrase(LoginAcessoPA.java:11)&#13;&#10;&#9;at stepDefinition.CadastroWeb.cadastrarFuncionario(CadastroWeb.java:31)&#13;&#10;&#9;at ✽.And efetuar o cadastro do funcionario(CadastroWeb.feature:6)&#13;&#10;"><![CDATA[Given que eu acesse a pagina de funcionarios................................passed
+And efetuar o cadastro do funcionario.......................................failed
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "desafioAgileTester.LoginAcessoPO.getButtonCadastrase()" is null
+	at desafioAgileTester.LoginAcessoPA.clickButtonCadastrase(LoginAcessoPA.java:11)
+	at stepDefinition.CadastroWeb.cadastrarFuncionario(CadastroWeb.java:31)
+	at ✽.And efetuar o cadastro do funcionario(CadastroWeb.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>
